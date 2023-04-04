@@ -1,4 +1,11 @@
 const express = require("express");
+console.log(1+1);
+console.log(1+1);
+console.log(1+1);
+console.log(1+1);
+console.log(1+1);
+console.log(1+1);
+console.log(1+1);
 const app = express();
 const port = 3000;
 
