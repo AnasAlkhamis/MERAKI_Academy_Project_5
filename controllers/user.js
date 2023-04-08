@@ -1,3 +1,4 @@
+
 async function getData() {
   return Promise.resolve('data');
 }
@@ -15,3 +16,19 @@ async function getAll() {
 getAll().then((all) => {
   console.log('all the data')
 })
+
+app.get("/", (req, res) => {
+  res.send("GET request to the homepage");
+});
+app.get("/", (req, res) => {
+  res.send("GET request to the homepage");
+});
+app.get("/", (req, res) => {
+  res.send("GET request to the homepage");
+});
+app.get("/", (req, res) => {
+  res.send("GET request to the homepage");
+});
+app.get("/", (req, res) => {
+  res.send("GET request to the homepage");
+});
